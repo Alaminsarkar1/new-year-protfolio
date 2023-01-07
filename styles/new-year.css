@@ -5,6 +5,7 @@
 }
 
 /* header style */
+/* stard header */
 .header {
     background-image: url(../images/banner/banner2.png);
     background-size: cover;
@@ -45,6 +46,7 @@
     border-radius: 5px;
     margin-left: 386px;
 }
+/* end header */
 
 /* section style */
 .main {
@@ -69,6 +71,7 @@
     justify-content: center;
 
 }
+/* end section style */
 
 /* my plants styls */
 .about {
@@ -106,6 +109,7 @@
 }
 
 /* end my plants styls */
+/* stard banner */
 .end-banner {
     margin-top: 125px;
     margin-bottom: 130px;
@@ -133,6 +137,7 @@
     border-radius: 5px;
     margin-top: 20px;
 }
+/* end banner */
 
 /* footer style */
 .contact .fotter-title {
@@ -146,8 +151,6 @@
     color: white;
     padding: 130px 230px;
     align-items: center;
-
-
 }
 .contact input, textarea{
     width: 100%;
@@ -157,7 +160,6 @@
     padding-bottom: 21px;
     padding-left: 21px;
 }
-
 .fotter-title {
     font-weight: 700;
     font-size: 45px;
@@ -169,8 +171,4 @@
     margin-top: 130px;
     margin-bottom: 16px;
 }
-
-.p {
-    font-weight: 400;
-    font-size: 16px;
-}
+/* end footer style */
