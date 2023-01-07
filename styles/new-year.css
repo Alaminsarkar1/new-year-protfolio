@@ -50,26 +50,127 @@
 .main {
     width: 1072px;
     height: 723.3px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.section {
-    text-align: left;
-    margin: 0 200px;
+.image-container {
+    margin-top: 200px;
 }
 
-h1 {
-    ont-weight: 700;
+.text-contanier {
+    margin-left: 150px;
+    margin-top: 395px;
+    align-content: space-between;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+/* my plants styls */
+.about {
+    margin-top: 200px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
     font-size: 40px;
+    margin-bottom: 50px;
 }
 
-p {
+.skills-container {
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+
+}
+
+
+.skill {
+    text-align: center;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.skill-sescription {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* end my plants styls */
+.end-banner {
+    margin-top: 125px;
+    margin-bottom: 130px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.banner-style {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: wheat;
+}
+
+.btn_secondary {
+    background-color: tomato;
+    border: 0;
+    color: white;
+    padding: 20px 55px;
+    font-weight: 160px;
+    font-size: 22px;
+    top: 578px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* footer style */
+.contact .fotter-title {
+    text-align: left;
+}
+
+.contact {
+    display: flex;
+    gap: 331px;
+    background-color: black;
+    color: white;
+    padding: 130px 230px;
+    align-items: center;
+
+
+}
+.contact input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 21px;
+}
+
+.fotter-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.fotter-end {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 130px;
+    margin-bottom: 16px;
+}
+
+.p {
     font-weight: 400;
     font-size: 16px;
-}
-
-.list {
-    text-decoration: none;
-}
-.picture{
-    text-align: right;
 }
