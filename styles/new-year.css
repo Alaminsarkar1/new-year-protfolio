@@ -24,12 +24,12 @@
     font-size: 65px;
     line-height: 76px;
     text-align: right;
-    width: 30%;
+    width: 45%;
 }
 
 .header-text {
     font-size: 15px;
-    width: 20%;
+    width: 30%;
     text-align: right;
     padding: 20px;
     margin-left: 196px;
@@ -124,6 +124,7 @@
     font-size: 40px;
     text-align: center;
     color: wheat;
+
 }
 
 .btn_secondary {
@@ -151,6 +152,7 @@
     color: white;
     padding: 130px 230px;
     align-items: center;
+    text-decoration: none;
 }
 .contact input, textarea{
     width: 100%;
